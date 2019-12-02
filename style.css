@@ -1,0 +1,119 @@
+/* CSS Reset */
+body,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layouts */
+.l_wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.l_sidebar {
+  float: right;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.l_main {
+  overflow: hidden;
+}
+
+/* Commons */
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* Buttons */
+.button {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+
+.button_block {
+  display: block;
+  text-align: center;
+}
+
+.button_important {
+  background-color: orangered;
+}
+
+/* Util */
+.mb_5 {
+  margin-bottom: 5px;
+}
+
+/* Components */
+body {
+  background-image: url(images/bg.png);
+  color: #999;
+}
+
+.contents {
+  padding: 40px 0;
+}
+
+.checkout {
+  background-color: #222;
+}
+
+.checkout-section {
+  margin: 20px;
+}
+
+.video {
+  background-color: dodgerblue;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.video-iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.price-discount {
+  font-weight: normal;
+  color: #999;
+  font-size: 0.5em;
+  position: relative;
+}
+
+.price-discount:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  bottom: 0.6em;
+  opacity: 0.3;
+  background-color: white;
+}
+
+.course-cover {
+  background-image: url(images/cover.png);
+}
+
+.course-section {
+  background-color: orange;
+  margin: 20px 0;
+}
